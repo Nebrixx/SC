@@ -52,7 +52,24 @@ top: 70%;
 
 }
 
+#fb{
 
+}
+
+#ig{
+
+}
+
+#sc{
+
+}
+
+#twit{
+  position: absolute;
+  left: 100px;
+  top: 90px;
+  font-size: 40px;
+}
 
 
 .main {
@@ -89,6 +106,9 @@ top: 70%;
   width: 100px;
   height: 100px;
   opacity: 1;
+  position: absolute;
+  left: -25%;
+  top: -30%;
   /* object-fit: cover; */
 }
 
