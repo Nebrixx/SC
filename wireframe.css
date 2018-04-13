@@ -45,30 +45,33 @@ cursor: pointer;
 
 }
 
-.middlelogo .fa-twitter {
-position: absolute;
-right: 52.5%;
-top: 70%;
-
-}
 
 #fb{
-
+position: absolute;
+left: -31px;
+top: 63px;
+font-size: 22px;
 }
 
 #ig{
-
+position: absolute;
+left: 63px;
+top: 63px;
+font-size: 22px;
 }
 
 #sc{
-
+position: absolute;
+left: -31px;
+top: -8px;
+font-size: 22px;
 }
 
 #twit{
   position: absolute;
-  left: 100px;
-  top: 90px;
-  font-size: 40px;
+  left: 63px;
+  top: -8px;
+  font-size: 22px;
 }
 
 
@@ -107,8 +110,8 @@ top: 70%;
   height: 100px;
   opacity: 1;
   position: absolute;
-  left: -25%;
-  top: -30%;
+  left: -45%;
+  top: -43%;
   /* object-fit: cover; */
 }
 
