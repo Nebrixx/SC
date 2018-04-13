@@ -1,0 +1,175 @@
+* {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  box-sizing: border-box;
+  font-weight: 200;
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  height: 100%;
+  margin: 0;
+  margin-top: -4px;
+}
+.body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.mediaicons {
+
+height: 50px;
+width: 50px;
+position: absolute;
+/* right: 1%; */
+font-size: 20px;
+z-index: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+top: 50%;
+}
+
+.middlelogo svg {
+
+padding: 2px;
+color: white;
+cursor: pointer;
+
+}
+
+.middlelogo .fa-twitter {
+position: absolute;
+right: 52.5%;
+top: 70%;
+
+}
+
+
+
+
+.main {
+  height: 100%;
+  width: 100%;
+  /* position: relative; */
+  background-color: white;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+  position: absolute;
+
+}
+
+.middlelogo {
+  width: 50px;
+  height: 50px;
+  /* left: 0;
+  top: 0; */
+  /* background-color: red; */
+  position: relative;
+}
+
+.middlelogo img {
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  /* object-fit: cover; */
+}
+
+.northbutton {
+
+  /* left: 47%; */
+  top: 0;
+  color: white;
+  position: absolute;
+  font-size: 25px;
+  z-index: 1;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.northbutton:hover {
+  opacity: .6;
+}
+
+.northbutton:hover .main img {
+  opacity: 0;
+}
+
+.southbutton {
+
+  left: 45%;
+  bottom: 0;
+  color: white;
+  position: absolute;
+  font-size: 25px;
+  z-index: 1;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+.southbutton:hover {
+  opacity: .6;
+}
+
+.rightbutton {
+
+  right: 0;
+  top: 50%;
+  color: white;;
+  position: absolute;
+  font-size: 25px;
+  z-index: 1;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+
+.rightbutton:hover {
+  opacity: .6;
+
+}
+
+
+
+.leftbutton {
+
+  left: 0;
+  top: 50%;
+  color: white;
+  position: absolute;
+  font-size: 25px;
+  z-index: 1;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+
+.leftbutton:hover {
+
+  opacity: .6;
+}
