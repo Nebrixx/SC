@@ -74,6 +74,30 @@ font-size: 22px;
   font-size: 22px;
 }
 
+#fb:hover {
+font-size: 25px;
+color: rgb(57, 31, 214);
+
+}
+
+
+#ig:hover {
+font-size: 25px;
+color: rgb(217, 64, 188);
+
+}
+
+
+#twit:hover {
+  font-size: 25px;
+  color: rgb(52, 181, 236);
+}
+
+#sc:hover {
+  font-size: 25px;
+  color: yellow;
+}
+
 
 .main {
   height: 100%;
