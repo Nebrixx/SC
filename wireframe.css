@@ -4,6 +4,11 @@
   font-weight: 200;
 }
 
+a {
+  text-decoration: line-through;
+  color: white;
+}
+
 html {
   height: 100%;
 }
